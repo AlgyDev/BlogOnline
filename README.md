@@ -2,5 +2,5 @@
 
 #Discord Oficial Geek Community
 Ayudas para desarrollo, etc
-Discord: https://discord.gg/GRTqks
+#Discord: https://discord.gg/GRTqks
  

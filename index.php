@@ -1,3 +1,13 @@
+<?php
+include_once 'app/Conexion.inc.php';
+include_once 'app/RepositorioUsuario.inc.php';
+
+Conexion :: abrir_conexion();
+$usuarios = RepositorioUsuario :: obtener_todos(Conexion::obtener_conexion());
+echo count($usuarios);
+Conexion :: cerrar_conexion();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
